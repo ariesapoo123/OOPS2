@@ -1,0 +1,20 @@
+class Animal:
+    def animal_attribute(self):
+        print('Class-Animal : Method-Animal Attribute')
+
+class Tiger(Animal):
+    pass
+
+a = Animal()
+b = Tiger()
+a.animal_attribute()
+b.animal_attribute()
+
+
+
+output
+
+
+
+Class-Animal : Method-Animal Attribute
+Class-Animal : Method-Animal Attribute
